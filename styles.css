@@ -112,7 +112,9 @@ button{
 
 button:hover{
     cursor: pointer;
-    filter: brightness(0.7);
+    color:white;
+    /* filter: brightness(1.02); */
+    background: #0e2d3ddf;
 }
 
 .prize, .date{
