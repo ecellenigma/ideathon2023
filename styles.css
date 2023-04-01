@@ -378,6 +378,8 @@ button:hover {
     max-width: 50px;
     max-height: 60px;
   }
+
+  
 }
 
 @media screen and (max-device-width: 1200px), screen and (max-width: 640px) {
@@ -549,7 +551,7 @@ button:hover {
   /* display: grid; */
   grid-template-columns: auto auto;
   grid-gap: 10px;
-  padding: 10px;
+  /* padding: 10px; */
   /* justify-self: self-end; */
   justify-content: space-around;
 }
@@ -662,6 +664,21 @@ button:hover {
 
 .faq-container{
   padding: 10px;
+}
+
+@media screen and (max-width: 700px){
+
+  .judge_card-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid; */
+    /* flex-direction: column; */
+    /* grid-template-columns: auto auto auto auto; */
+    grid-gap: 15px 4px;
+    padding: 2px;
+    justify-content: center;
+  }
+  
 }
 
 @media screen and (max-width: 1200px) {
