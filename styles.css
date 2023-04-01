@@ -591,12 +591,12 @@ html {
 .page4_container h4 {
   font-size: 2rem;
   font-weight: 700;
-  line-height: 44px;
+  line-height: 20px;
   letter-spacing: 0em;
   text-align: center;
   color: #f0180b;
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .page4_container h5 {
@@ -611,7 +611,7 @@ html {
 
 .footer {
   margin: -1px 0px;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 10px;
   width: 100%;
   color: #ffffff;
@@ -687,6 +687,10 @@ html {
     grid-gap: 10px 2px;
     padding: 3px;
     justify-content: center;
+  }
+
+  .footer{
+    margin-top: 10px;
   }
   
 }
