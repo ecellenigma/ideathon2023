@@ -11,7 +11,7 @@ html {
   background: #f0fcff;
 }
 
-.container {
+.first-container {
   max-width: 100vw;
   max-height: fit-content;
   background: #f0fcff;
@@ -379,7 +379,16 @@ button:hover {
     max-height: 60px;
   }
 
-  
+  .judge_card-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid; */
+    /* flex-direction: column; */
+    /* grid-template-columns: auto auto auto auto; */
+    grid-gap: 20px 4px;
+    padding: 2px;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-device-width: 1200px), screen and (max-width: 640px) {
@@ -543,7 +552,6 @@ button:hover {
 
 .judge_container {
   padding: 2px 16px;
-  cursor: pointer;
 }
 
 .sponsor-container {
@@ -568,7 +576,6 @@ button:hover {
 }
 
 .page4_container {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -603,7 +610,6 @@ button:hover {
 }
 
 .footer {
-  width: 100%;
   margin: -1px 0px;
   margin-top: 20px;
   padding: 10px;
@@ -669,18 +675,7 @@ button:hover {
   padding: 10px;
 }
 
-@media screen and (max-width: 700px){
-
-  .judge_card-container{
-    display: flex;
-    flex-wrap: wrap;
-    /* display: grid; */
-    /* flex-direction: column; */
-    /* grid-template-columns: auto auto auto auto; */
-    grid-gap: 15px 4px;
-    padding: 2px;
-    justify-content: center;
-  }
+@media screen and (max-width: 1200px){
   
 }
 
