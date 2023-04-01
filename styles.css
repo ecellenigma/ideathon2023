@@ -21,25 +21,25 @@ html {
   background-repeat: no-repeat;
 }
 
-.navbar {
+.first-navbar {
   max-width: 50%;
   display: flex;
   align-items: center;
 }
 
-.navbar ul {
+.first-navbar ul {
   display: flex;
   align-items: center;
   margin: 0 40px;
 }
 
-.navbar .logo img {
+.first-navbar .logo img {
   margin: 5px;
   max-width: 69px;
   max-height: 88px;
 }
 
-.navbar ul li {
+.first-navbar ul li {
   list-style: none;
   font-family: "Manrope";
   font-style: normal;
@@ -51,7 +51,7 @@ html {
   margin: 0px 20px;
 }
 
-.navbar ul li:hover {
+.first-navbar ul li:hover {
   cursor: pointer;
   filter: brightness(0);
 }
@@ -89,12 +89,12 @@ html {
   color: #156890;
 }
 
-.buttons {
+.first-buttons {
   margin: 50px 0px;
   display: flex;
 }
 
-button {
+.btn1, .btn2 {
   width: fit-content;
   height: fit-content;
   background: #ff8c38;
@@ -109,7 +109,7 @@ button {
   padding: 8px;
 }
 
-button:hover {
+.btn1:hover,.btn2:hover {
   cursor: pointer;
   color: white;
   /* filter: brightness(1.02); */
@@ -233,7 +233,7 @@ button:hover {
     font-size: 3rem;
   }
 
-  button {
+  .btn1,.btn2 {
     margin: 10px 10px;
   }
 
@@ -327,11 +327,11 @@ button:hover {
     font-size: 3rem;
   }
 
-  .buttons {
+  .first-buttons {
     flex-direction: column;
   }
 
-  button {
+  .btn1,.btn2 {
     margin: 10px 0px;
   }
 
