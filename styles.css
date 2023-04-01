@@ -675,7 +675,18 @@ button:hover {
   padding: 10px;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 700px){
+
+  .judge_card-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid; */
+    /* flex-direction: column; */
+    /* grid-template-columns: auto auto auto auto; */
+    grid-gap: 10px 2px;
+    padding: 3px;
+    justify-content: center;
+  }
   
 }
 
