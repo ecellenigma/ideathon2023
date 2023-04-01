@@ -543,6 +543,7 @@ button:hover {
 
 .judge_container {
   padding: 2px 16px;
+  cursor: pointer;
 }
 
 .sponsor-container {
@@ -567,6 +568,7 @@ button:hover {
 }
 
 .page4_container {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -601,6 +603,7 @@ button:hover {
 }
 
 .footer {
+  width: 100%;
   margin: -1px 0px;
   margin-top: 20px;
   padding: 10px;
