@@ -196,7 +196,7 @@ html {
     font-size: 75%;
   }
 
-  .container {
+  .first-container {
     min-width: 100vw;
     min-height: fit-content;
     background: #f0fcff;
@@ -290,7 +290,7 @@ html {
     flex-direction: column;
   }
 
-  .container {
+  .first-container {
     min-width: 100vw;
     min-height: 100vh;
     background: #f0fcff;
