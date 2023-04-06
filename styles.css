@@ -513,6 +513,14 @@ body {
   line-height: 32px;
 }
 
+.about p {
+  font-size: 1rem;
+}
+
+.about h2 {
+  font-size: 2rem;
+}
+
 .page2_container h4 {
   font-size: 2rem;
   font-weight: 700;
@@ -724,8 +732,8 @@ body {
 
 .socialLogo {
   margin-top: 2rem;
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .fCol2 path {
