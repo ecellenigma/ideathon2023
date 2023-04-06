@@ -2,12 +2,19 @@
 /*Sri Edited 4thApr2023*/
 /*****************************************************/
 
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+
+
+/*Poppins Semi Bold*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 :root{
     --yellow: #F7F719;
     --darkBlue: #0E2D3D;
     --orange: #EF450F;
     --orangeLight: #e4702c;
+    --pink:#f78a84;
+    
   }
 
 
@@ -36,17 +43,28 @@
     padding:8px;
     color: var(--orange) !important;
 }
+.ideathonHeaderImgWrapper{
+    padding: 32px 0px;
+}
+.ideathonHeaderImg{
+    width: 40vw !important;
+}
 
 .ideathonHead{
     font-size: 72px !important;
     font-weight: bold;
- 
-    background: linear-gradient(207.99deg, #EF450F 17.35%, rgba(14, 45, 61, 0) 99.49%);
+    font-family: 'Poppins', sans-serif !important;
+    color: var(--darkBlue);
+    /* font-weight: 1600; */
+    /* background: linear-gradient(207.99deg, var(--darkBlue) 17.35%, rgba(14, 45, 61, 0) 99.49%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    fill: transparent; */
 
+}
+.humbhiSpan{
+    color: var(--orange);
 }
 .forYouChildWrapper{
     width:296px;
@@ -62,7 +80,15 @@
     margin:8px;
     padding: 16px;
 }
-
+.btn1, .btn2{
+    background-color: var(--pink);
+    border-radius: 80px;
+    font-weight: bold;
+}
+.btn1, .btn2 :hover{
+    /* background-color: white; */
+    border-radius: 80px;
+}
 @media (max-width:800px){
     .ideathonHead{
         margin-top: 40px;
