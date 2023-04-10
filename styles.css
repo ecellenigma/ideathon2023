@@ -57,9 +57,13 @@ body {
   margin: 8px;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: space-between;
 }
-
+.logo{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
 .first-navbar ul {
   display: flex;
   align-items: center;
@@ -79,7 +83,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 27px;
+  /* line-height: 27px; */
   text-align: center;
   /* color: #156890; */
   color: #404040;
@@ -194,7 +198,7 @@ body {
 .right-container {
   width: 50%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -708,10 +712,20 @@ body {
 .footer .cflex {
   display: grid;
 }
-
+.socialLogoWrapper{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: row ;
+  flex-wrap: wrap;
+}
 .socialLogoWrapper a {
   margin: 8px;
   text-decoration: none;
+  /* display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: row !important; */
 }
 
 .fCol1 {
@@ -731,9 +745,9 @@ body {
 }
 
 .socialLogo {
-  margin-top: 2rem;
-  width: 1.5rem;
-  height: 1.5rem;
+  /* margin-top: 4rem; */
+  /* width: 4rem; */
+  height: 2.4rem;
 }
 
 .fCol2 path {
@@ -741,7 +755,7 @@ body {
 }
 
 .fCol2 path:hover {
-  fill: rgb(152, 74, 255);
+  fill: var(--orange);
 }
 
 .footer .fRow2 {
