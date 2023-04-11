@@ -16,8 +16,22 @@
     --pink:#f78a84;
     
   }
-
-
+.mp8{
+    margin: 8px;
+    padding: 8px;
+}
+.mp16{
+    margin: 16px;
+    padding: 16px;
+}
+.mp32{
+    margin: 32px;
+    padding: 32px;
+}
+.mpFix{
+    margin: 24px;
+    padding: 24px;
+}
  .cf{
     display:flex ;
     justify-content:center;
@@ -38,6 +52,13 @@
 }
 .secHeading{
     font-size: 40px !important;
+    font-weight: bold;
+    margin:32px;
+    padding:8px;
+    color: var(--darkBlue) !important;
+}
+.secSubHeading{
+    font-size: 32px !important;
     font-weight: bold;
     margin:32px;
     padding:8px;
@@ -89,9 +110,18 @@
     /* background-color: white; */
     border-radius: 80px;
 }
+.aboutWid{
+    width: 56%;
+    /* text-align: right; */
+}
 @media (max-width:800px){
     .ideathonHead{
         margin-top: 40px;
         font-size: 48px !important;
+    }
+    .aboutWid{
+        width: 72%;
+        margin-left: -32px;
+    
     }
 }
